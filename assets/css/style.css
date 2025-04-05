@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body {
-    font-family: "Poppins" ,sans-serif; background-color: #a4c2d1;
+    font-family: "Poppins", sans-serif; background-color: #a4c2d1;
 }
 
 h1,h2 {
@@ -23,6 +23,16 @@ h1,h2 {
     border-radius: 0;
 }
 
+/* Styling the Buttom */
+
+.custom-buttom {
+    background-color:#1f7798;
+    border: ##1f7798;
+}
+.custom-buttom:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
 /*About section*/
 #about {
     background-color: white;
@@ -53,6 +63,9 @@ h1,h2 {
 
 #contact {
     background-color: white;
+}
+.input{
+    color: #1f7798;
 }
 
 #hero {
